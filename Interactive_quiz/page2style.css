@@ -1,0 +1,83 @@
+header {
+  background-color: #210f1f;
+  color: #fff;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo img {
+  height: 80px; 
+  margin-left: 20px; 
+}
+
+.exit-button a,
+.Back-button a {
+  position: fixed;
+  top: 20px;
+  color: #fff;
+  padding: 8px 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.exit-button a {
+  right: 20px;
+}
+
+.Back-button a {
+  right: 90px; 
+  background-color: gray;
+}
+
+.quiz-topics {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  padding: 15px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #324c67;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
